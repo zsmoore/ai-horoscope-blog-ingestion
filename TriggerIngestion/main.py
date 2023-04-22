@@ -15,22 +15,22 @@ DATABASE_ID = 'DATABASE_ID'
 MODEL = 'gpt-3.5-turbo'
 WORD_COUNT = 3000
 PROMPT = '''
-Provide me a title for a blog post about something that happened on {0} in the past.
+Provide me a title for a blog post about a horoscope for today.
 Then give me SEO tags for the blog post.
 Then provide me an seo friendly url slug.
-Then write me a blog post with over {1} words about the same event using professional language.
+Then write me a blog post with over {1} words about the same horoscope using professional language.
 Do not include media.
 Provide this information for me in json.
 '''
 
-DESCRIPTION = "Placeholder"
+DESCRIPTION = "Horoscope for Today"
 
 RETRY_COUNT = 5
 
 CONTENT_NAMES = ['content', 'blog_post', 'post', 'Blog_post', 'blogPost']
-SEO_TAG_NAMES = ['seo_tags', 'tags', 'SEO_tags', 'seoTags']
-URL_SLUG_NAMES = ['url_slug', 'slug', 'URL_slug', 'seoFriendlySlug']
-TITLE_NAMES = ['title', 'blog_post_title', 'Title', 'blogTitle']
+SEO_TAG_NAMES = ['seo_tags', 'tags', 'SEO_tags', 'seoTags', 'SEOTags']
+URL_SLUG_NAMES = ['url_slug', 'slug', 'URL_slug', 'seoFriendlySlug', 'URLslug']
+TITLE_NAMES = ['title', 'blog_post_title', 'Title', 'blogTitle', 'blogPost']
 
 CONTENT = 'content'
 SEO_TAGS = 'seo_tags'

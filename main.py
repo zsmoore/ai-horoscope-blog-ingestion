@@ -28,9 +28,9 @@ DESCRIPTION = "Horoscope for Today"
 RETRY_COUNT = 5
 
 CONTENT_NAMES = ['content', 'blog_post', 'post', 'Blog_post', 'blogPost']
-SEO_TAG_NAMES = ['seo_tags', 'tags', 'SEO_tags', 'seoTags']
-URL_SLUG_NAMES = ['url_slug', 'slug', 'URL_slug', 'seoFriendlySlug']
-TITLE_NAMES = ['title', 'blog_post_title', 'Title', 'blogTitle']
+SEO_TAG_NAMES = ['seo_tags', 'tags', 'SEO_tags', 'seoTags', 'SEOTags']
+URL_SLUG_NAMES = ['url_slug', 'slug', 'URL_slug', 'seoFriendlySlug', 'URLslug']
+TITLE_NAMES = ['title', 'blog_post_title', 'Title', 'blogTitle', 'blogPost']
 
 CONTENT = 'content'
 SEO_TAGS = 'seo_tags'
